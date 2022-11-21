@@ -47,3 +47,14 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# VScode settings
+.vscode/
+settings.json
+
+# XPT dataset
+# *.XPT
+
+# Test file
+test.R
+test/
