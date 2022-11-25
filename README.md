@@ -49,18 +49,12 @@ conda install -c conda-forge r-ggplot2 r-reshape2 r-proc
 conda install -c conda-forge r-caret r-gbm r-randomforest r-kernlab
 ```
 
-## Assign Radian as the default R (optional)
-
-```bash
-alias r="radian"
-```
-
 ## Setup the R kernel
 
 ### Setup the R kernel for Jupyter
 
 ```bash
-radian # r if you did not install radian
+radian # R if you did not install radian
 ```
 
 ```R
