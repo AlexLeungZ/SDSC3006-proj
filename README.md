@@ -21,22 +21,32 @@ conda activate r_env
 
 ### Required package
 
+- Jupyter Notebook
+  1. Jupyter
+  2. r-irkernel
+
 - Base package
   1. r-base
   2. r-recommended
   3. r-languageserver
   4. r-renv
-- Recommended package
-  1. Jupyter
-  2. r-irkernel
+
 - Required Library
-  1. ?
+  1. r-ggplot2
+  2. r-reshape2
+  3. r-proc
+  4. r-caret
+  5. r-gbm
+  6. r-kernlab
+  7. r-randomforest
 
 ### Install package (mamba is recommended)
 
 ```bash
-conda install -c conda-forge 
-
+conda install -c conda-forge Jupyter r-base r-irkernel
+conda install -c conda-forge r-recommended r-languageserver r-renv
+conda install -c conda-forge r-ggplot2 r-reshape2 r-proc
+conda install -c conda-forge r-caret r-gbm r-randomforest r-kernlab
 ```
 
 ## Assign Radian as the default R (optional)
