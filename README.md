@@ -64,6 +64,8 @@ quit()
 
 ### Choosing R as Jupyter kernel
 
+Path for R binary: ```.../miniconda3/envs/r_env/bin/R```
+
 ## Credits
 
 [Conda Docs](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html "Conda Docs")
